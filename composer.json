@@ -1,0 +1,22 @@
+{
+    "name": "opcache",
+    "description": "This package is to handle the opcache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Htin Shar",
+            "email": "htinshar05@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "OpCache\\": "src"
+        }
+    },
+
+    "minimum-stability": "dev"
+}
